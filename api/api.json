@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "text":"Chernobyl",
+        "video":"./videos/chernobyl.mp4"
+    },
+    {
+        "id":2,
+        "text":"The Queen Gambit",
+        "video":"./videos/queengambit.mp4"
+    },
+    {
+        "id":3,
+        "text":"The Last Man On The Earth",
+        "video":"./videos/thelastman.mp4"
+    }
+]

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../film.css">
+</head>
+
+<body>
+    <div class="login_container">
+        <h1>Sign UP</h1>
+        <form onsubmit="regSubmit(event)">
+           
+            <div class="form_input">
+                <label for="reg_name">Name</label>
+                <input id="reg_name" type="text" placeholder="sitiago">
+            </div>
+
+            <div class="form_input">
+                <label for="reg_email">Email</label>
+                <input id="reg_email" type="email" placeholder="sitiago@gmail.com">
+            </div>
+
+            <div class="form_input">
+                <label for="reg_psw">Password</label>
+                <input id="reg_psw" type="password" placeholder="**********">
+            </div>
+
+            <div class="form_input">
+                <label for="reg_re_psw">Re-Type Password</label>
+                <input id="reg_re_psw" type="password" placeholder="**********">
+            </div>
+
+            <p class="register_err"></p>
+            <div class="entrance_buttons">
+                <button class="entrance_signup">Sign up</button>
+                
+            </div>
+
+
+
+        </form>
+        <div class="login_buttons">
+            <button class="entrance_login"> Go Login</button>
+        </div>
+    </div>
+
+
+
+
+    <script src="../data.js"></script>
+    <script src="register.js"></script>
+</body>
+
+</html>

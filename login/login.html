@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../film.css">
+</head>
+
+<body>
+    <div class="login_container">
+        <h1>LOGIN</h1>
+        <form onsubmit="loginSubmit(event)">
+            <div class="form_input">
+                <label for="login_email">Email</label>
+                <input id="login_email" type="email" placeholder="sitiago@gmail.com">
+            </div>
+
+            <div class="form_input">
+                <label for="login_psw">Password</label>
+                <input id="login_psw" type="password" placeholder="**********">
+            </div>
+
+
+            <a href="">Forgot password</a>
+            <p class="login_err"></p>
+            <div class="entrance_buttons">
+                <button class="entrance_login">Login</button>
+
+            </div>
+            
+
+
+        </form>
+    </div>
+
+
+
+    <script src="../data.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>
